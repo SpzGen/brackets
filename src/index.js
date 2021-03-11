@@ -9,7 +9,7 @@ module.exports = function check(str, bracketsConfig) {
               str = str.replace(temp, "");
           }
           temp = "";
-      }
+      } 
   }
   return ((str.length === 0) ?  true :  false);
 };
